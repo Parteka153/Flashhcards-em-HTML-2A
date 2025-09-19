@@ -13,3 +13,5 @@ body {
     flex-grow: 1;
     flex-basis: calc(33%-6rem);
 }
+:root {--text-color:#DBE4EF;--card-front-color #144480;
+--card-back-color:#00f4bf}
