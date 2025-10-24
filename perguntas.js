@@ -7,4 +7,5 @@ criaCartao('Geografia',
 criaCartao('Programação',
     'O que é uma Função?',
     'uma função é um bloco de codigo que executa alguma tarefa'
-)
+)criaCartao('lingua inglesa'), 'como se diz oi em ingles?'
+'Oi em ingles é hi (RAI)'
