@@ -9,3 +9,11 @@ criaCartao('Programação',
     'uma função é um bloco de codigo que executa alguma tarefa'
 )criaCartao('lingua inglesa'), 'como se diz oi em ingles?'
 'Oi em ingles é hi (RAI)'
+let repostaEstaVisivel = false
+
+Function viraCartão(){
+respostaEstaVisivel = !respostaEstaVisivel
+cartao.classList.toggle('active',respostaEstaVisivel)}
+cartao.addEventlistener('click',viraCartão)
+CSSContainerRule.appendChild(cartao)
+}
