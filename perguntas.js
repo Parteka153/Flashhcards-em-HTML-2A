@@ -1,19 +1,23 @@
-criaCartao(Progamação, Oque é Python?, O Python é uma linguagem de programação)
-criaCartao('Geografia',
-     'Qual a capital da frança?',
-    'A capital da frança é Paris'
+criaCartao(
+    'Programação',
+    'O que é Python?',
+    'O Python é uma linguagem de programação'
 )
 
-criaCartao('Programação',
-    'O que é uma Função?',
-    'uma função é um bloco de codigo que executa alguma tarefa'
-)criaCartao('lingua inglesa'), 'como se diz oi em ingles?'
-'Oi em ingles é hi (RAI)'
-let repostaEstaVisivel = false
+criaCartao(
+    'Geografia',
+    'Qual a capital da França?',
+    'A capital da França é Paris'
+)
 
-Function viraCartão(){
-respostaEstaVisivel = !respostaEstaVisivel
-cartao.classList.toggle('active',respostaEstaVisivel)}
-cartao.addEventlistener('click',viraCartão)
-CSSContainerRule.appendChild(cartao)
-}
+criaCartao(
+    'Programação',
+    'O que é uma função?',
+    'Uma função é um bloco de código que executa alguma tarefa'
+)
+
+criaCartao(
+    'Lingua inglesa',
+    'Como se diz oi em Inglês?',
+    'Oi em ingles é HI (RAI)'
+)
